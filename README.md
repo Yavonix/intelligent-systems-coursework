@@ -2,12 +2,12 @@ This repo contains my submissions for the Intelligent Systems (2802ICT) course a
 
 The course more or less had 4 domains:
 
-| Domain | Algorithms | Key Implementation Detail |
-| :--- | :--- | :--- |
-| Search | A*, BFS, DFS | Custom maze-solving heuristics |
-| Logic | CSP / Backtracking | Constraint satisfaction for Crosswords |
-| ML | ID3 Decision Tree | Recursive information gain calculation |
-| Deep Learning | MLP / Backpropagation | Manual gradient descent in NumPy |
+| Domain | Description |
+| :--- | :--- |
+| Search | A*, BFS, DFS |
+| Logic | CSP / Backtracking |
+| ML | ID3 Decision Tree |
+| Deep Learning | MLP / Backpropagation (manual gradient descent in NumPy) |
 
 In completing the course the Search/Logic domains were assessed in assignment 1 and the ML/Deep Learning domains were assessed in assignment 2.
 
@@ -18,4 +18,4 @@ value of each cell (B).
 
 ![heuristic model inputs and outputs](./2802ict-assignments/assignment_01/maze_src/cnn_heuristic/example_image.png)
 
-My writeup for the second assignment can be found [here](./2802ict-assignments/assignment_02/Report.pdf). I'm mainly proud of the process I undertook to determine the correct numpy operations as part of the backpropagation algorithm, of which my working can be found [here](./2802ict-assignments/assignment_02/nn/notebooks%20(pdf)/planning.pdf).
+My writeup for the second assignment can be found [here](./2802ict-assignments/assignment_02/Report.pdf).
